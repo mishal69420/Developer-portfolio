@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.jhonny {
+    color: indigo;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.top-banner {
+    background-image: url(myself/istockphoto-1212342896-612x612.jpg);
+
+    background-repeat: no-repeat;
+}
