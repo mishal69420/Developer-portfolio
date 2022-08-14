@@ -11,8 +11,9 @@ h1 {
     color: indigo;
 }
 
-section {
+.flexiable-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -38,7 +39,7 @@ section {
     background-image: url(myself/card-st-valentines-day-concept-close-up-view-photo-lot-many-small-hearts-top-corner-isolated-white-background-with-place-text_352249-3647.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: auto;
+    background-position: left;
 }
 
 .hard {
@@ -55,8 +56,30 @@ section {
 }
 
 .second-banner {
-    background-image: url(myself/bec70f482f0e40abe7aa310a0356e3ef.jpg);
+    background-image: url(myself/love-and-passion-background-backgrounds-romantic-1-5c9b9945866ba.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: auto;
+    margin-bottom: 0%;
+}
+
+.exprience-area {
+    background-image: url(myself/High_resolution_wallpaper_background_ID_77701702344.jpg);
+    background-position: right;
+
+}
+
+.exp-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#web-dev-expi {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
